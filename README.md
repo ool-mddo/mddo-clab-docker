@@ -1,4 +1,5 @@
 ## deploy command
+```
 docker run --rm -id --privileged \
     --name mddo-clab-docker \
     --network host \
@@ -10,3 +11,4 @@ docker run --rm -id --privileged \
     -v $(pwd):$(pwd) \
     -w $(pwd) \
     ghcr.io/ool-mddo/mddo-clab-docker:main
+```
