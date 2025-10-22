@@ -1,4 +1,4 @@
-FROM ghcr.io/srl-labs/clab
+FROM ghcr.io/srl-labs/clab:0.71.0
 RUN apk --update add supervisor \
                      openvswitch
 # ////////////// Open vSwitch Section ////////////// #
